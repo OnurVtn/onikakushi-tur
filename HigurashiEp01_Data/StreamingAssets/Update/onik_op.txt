@@ -102,7 +102,7 @@ void main()
 //　でも......薄々は気付いてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも…薄々は気付いてる。",
-		   NULL, "Ama… farkına varmaya başlıyorum. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ama… farkına varmaya başlıyorum.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
