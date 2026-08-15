@@ -244,7 +244,7 @@ void main()
 //　もう充分だろ？!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もう充分だろ？",
-		   NULL, "Artık yeterli, değil mı?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Artık yeterli, değil mi?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
