@@ -78,7 +78,7 @@ void main()
 //　......いや、信じてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…いや、信じてる。",
-		   NULL, "…Hayır, hâlâ inanıyorum.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "…Hayır, hala inanıyorum.", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -144,7 +144,7 @@ void main()
 //　機械的に繰り返されていたそれはようやく収まり、とても静かになった。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "機械的に繰り返されていたそれはようやく収まり、とても静かになった。",
-		   NULL, "Mekanik bir şekilde tekrarlanıp duran o şey sonunda sustu ve etraf sessizliğe büründü.", Line_Normal);
+		   NULL, "Mekanik bir şekilde tekrarlanıp duran ses sonunda sustu ve etraf sessizliğe büründü.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("sora1", "aa", 0, 0, 1300 );
@@ -168,7 +168,7 @@ void main()
 //　...彼女のそれはまだ聞こえる気がする。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…彼女のそれはまだ聞こえる気がする。",
-		   NULL, "…onun sesini hâlâ duyabiliyormuşum gibi geliyor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "…onun sesini hala duyabiliyormuşum gibi geliyor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -479,7 +479,7 @@ void main()
 //　君に贈る、...............俺からの、!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "君に贈る、…俺からの、",
-		   NULL, "bu, sana armağan edeceğim… benden…", GetGlobalFlag(GLinemodeSp));
+		   NULL, "bu, sana armağan edeceğim…", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
