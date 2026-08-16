@@ -154,7 +154,7 @@ void main()
 //　ひぐらしの声だけが...いやに騒がしい。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひぐらしの声だけが…いやに騒がしい。",
-		   NULL, "Yalnızca higurashilerin sesi kaldı, sinir bozucu derecede gürültülü.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Yalnızca higurashilerin sesi kaldı; sinir bozucu derecede gürültülü.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
