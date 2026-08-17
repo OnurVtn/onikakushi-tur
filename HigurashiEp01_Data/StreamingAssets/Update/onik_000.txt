@@ -41,7 +41,7 @@ void main()
 //　それに聞き耳を立てるのは悪い気がしたので、意識的に聞かないようにした￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　それに聞き耳を立てるのは悪い気がしたので、意識的に聞かないようにした。",
-		   NULL, "Kulak misafiri olmak kötü bir şey gibi geldiğinden, bilerek dinlememeye çalıştım.", Line_Normal);
+		   NULL, "Kulak misafiri olmak yanlış geldiğinden, bilerek dinlememeye çalıştım.", Line_Normal);
 	ClearMessage();
 
 //　親類の葬儀のために戻った、久しぶりの都会だった＠
