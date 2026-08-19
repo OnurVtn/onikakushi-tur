@@ -209,14 +209,14 @@ void main()
 //　どんな過ちだって、許されないことはないはずだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　どんな過ちだって、許されないことはないはずだ。",
-		   NULL, "Nasıl bir hata olursa olsun, affedilemeyecek bir şey olamaz.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Nasıl bir hata olursa olsun, affedilemez bir şey olamaz.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　取り返せないミスなんかない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　取り返せないミスなんかない。",
-		   NULL, "Geri döndürülemeyecek bir hata yoktur.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Telafi edilemeyecek bir hata yoktur.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -235,7 +235,7 @@ void main()
 //　では...取り返しのつかない過ちを犯してしまったのだろうか￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　では…取り返しのつかない過ちを犯してしまったのだろうか？",
-		   NULL, "Öyleyse… geri döndürülmesi imkansız bir hata mı yaptı acaba?", Line_Normal);
+		   NULL, "Öyleyse… telafi edilmesi imkansız bir hata mı yaptı acaba?", Line_Normal);
 	ClearMessage();
 
 //　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ＠
