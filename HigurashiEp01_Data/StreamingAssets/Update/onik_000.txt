@@ -241,7 +241,7 @@ void main()
 //　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　一体彼女が何を犯したのか知らないが、取り返しがつかないものなら、なおのこと許してやるべきだ。",
-		   NULL, "Ne yaptığını bilmiyorum ama geri döndürülemeyecek bir şeyse, bu onu affetmek için daha çok sebep verir.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ne yaptığını bilmiyorum ama telafi edilemeyecek bir şeyse, bu onu affetmek için daha çok sebep verir.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
