@@ -490,7 +490,7 @@ void main()
 
 
 	OutputLine(NULL, "花束。",
-		   NULL, " çiçek buketi olacak.", Line_Normal);
+		   NULL, " çiçek buketi olsun.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 3000 );
