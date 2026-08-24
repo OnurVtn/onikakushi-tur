@@ -251,7 +251,7 @@ void main()
 //　内なる、もうひとりの自分がやさしく語りかける...。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "内なる、もうひとりの自分がやさしく語りかける…。",
-		   NULL, "İçimdeki diğer ben nazikçe seslendi…", Line_Normal);
+		   NULL, "İçimdeki bir ses nazikçe fısıldadı…", Line_Normal);
 	ClearMessage();
 
 //locate 0,4
