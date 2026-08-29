@@ -186,7 +186,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の母</color>", NULL, "<color=#f5e6d3>Keiichi'nin Annesi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992700001", 256, TRUE);
 	OutputLine(NULL, "「こっちに引っ越してきてから、圭一が早起きになって嬉しいわね。」",
-		   NULL, "\"Buraya taşındığımızdan beri erken kalkmana çok seviniyorum.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Buraya taşındığımızdan beri erken kalktığın için çok mutluyum.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3989,7 +3989,7 @@ void main()
 //　これからは、レナの戦闘半径では注意することにしよう...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これからは、レナの戦闘半径では注意することにしよう…。",
-		   NULL, "Bundan sonra, Rena'nın menzili içindeyken daha dikkatli olacağım…", Line_Normal);
+		   NULL, "Bundan sonra, Rena'nın menzili içindeyken daha dikkatli olmam gerek…", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	ModDrawCharacterWithFiltering(3, 2, "sprite/re1b_kaii_b1_", "2", "m1", 1, 160, 0, FALSE, 0, 0, 0, 0, 0, 20, 0, FALSE );
