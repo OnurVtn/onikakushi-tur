@@ -172,7 +172,7 @@ void main()
 //　スケジュールという言葉と無縁な親父とは逆に、お袋は何事にもソツがない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　スケジュールという言葉と無縁な親父とは逆に、お袋は何事にもソツがない。",
-		   NULL, "Program' denen kelimeden habersiz babamın aksine, annemin hiçbir işinde en ufak bir aksaklık olmazdı.", Line_Normal);
+		   NULL, "'Program' denen kelimeden habersiz babamın aksine, annemin hiçbir işinde en ufak bir aksaklık olmazdı.", Line_Normal);
 	ClearMessage();
 
 
@@ -1254,7 +1254,7 @@ void main()
 //　洋ゲーってのは輸入品のゲームの略だ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　洋ゲーってのは輸入品のゲームの略だ。",
-		   NULL, "Dış-oyun', batıdan ithal edilen oyunlar için bir kısaltma.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'Dış-oyun', batıdan ithal edilen oyunlar için bir kısaltma.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2720,7 +2720,7 @@ void main()
 
 //ポン、と音がして丸い輪っかの煙が上がっていく￥
 	OutputLine(NULL, "ポン、と音がして丸い輪っかの煙が上がっていく。",
-		   NULL, " puf' diye bir ses geldi ve yuvarlak bir duman halkası yükselmeye başladı.", Line_Normal);
+		   NULL, " 'puf' diye bir ses geldi ve yuvarlak bir duman halkası yükselmeye başladı.", Line_Normal);
 	ClearMessage();
 
 //　一体、どんなプライベートレッスンを想像したらあんなに赤面できるんだろう...＠
@@ -3673,7 +3673,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300055", 256, TRUE);
 	OutputLine(NULL, "「さぁどっちだ！うぅん？！」",
-		   NULL, "\"Hadi, hangisi! Hıı?!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hadi, hangisi?! Hıı?!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
