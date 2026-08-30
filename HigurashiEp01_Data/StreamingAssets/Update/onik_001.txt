@@ -68,7 +68,7 @@ void main()
 //　空気にも味があることを、この雛見沢に来て初めて知った￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　空気にも味があることを、この雛見沢に来て初めて知った。",
-		   NULL, "Havanın bile bir tadı olduğunu, Hinamizawa'ya gelince öğrendim.", Line_Normal);
+		   NULL, "Havanın bile bir tadı olduğunu Hinamizawa'ya gelince öğrendim.", Line_Normal);
 	ClearMessage();
 
 	FadeOutBGM( 2, 1000, TRUE );
@@ -79,7 +79,7 @@ void main()
 //　手早く登校の準備を済ませ、朝食のために階下へ降りる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　手早く登校の準備を済ませ、朝食のために階下へ下りる。",
-		   NULL, "Okula hazırlanma işini çabucak bitirip kahvaltı etmek için aşağı indim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Okula hazırlanma işini çabucak bitirip kahvaltı için aşağı indim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
