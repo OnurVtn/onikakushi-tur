@@ -1066,7 +1066,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "org/mion0003", 256, TRUE);
 	OutputLine(NULL, "「たくましくなっちゃった上にヒゲまで生やしちゃってさぁ〜☆」",
-		   NULL, "\"Hem iyice irileşmiş hem de bir sakalı var〜☆.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Hem iyice irileşmiş hem de bir sakalı var〜☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -1992,7 +1992,7 @@ void main()
 		   NULL, "\"…Sana da günaydın, Rena.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 5, "ps3/s19/05/990500005", 256, TRUE);
 	OutputLine(NULL, "みんなにもおはようございますです。」",
-		   NULL, " Herkese günaydın.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hepinize günaydın.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2126,7 +2126,7 @@ void main()
 	Wait( 2000 );
 
 	OutputLine(NULL, "　証拠もないのにぃ〜！！」",
-		   NULL, " Hem elinde kanıtın bile yok ki!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hem elinde kanıtın bile yok ki〜!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2908,7 +2908,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200043", 256, TRUE);
 	OutputLine(NULL, "「…圭一くん、お昼にしよ☆」",
-		   NULL, "\"…Keiichi-kun, hadi öğle yemeği yiyelim☆.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"…Keiichi-kun, hadi öğle yemeği yiyelim.☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3393,7 +3393,7 @@ void main()
 	// (backup) SetValidityOfInput( TRUE );
 
 	OutputLine(NULL, "…その……ね☆」",
-		   NULL, " …şey…… Öyle işte☆.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " …şey…… Öyle işte.☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
