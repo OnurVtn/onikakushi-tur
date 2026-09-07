@@ -88,7 +88,7 @@ void main()
 //　あるのはセミの声と清流のせせらぎ＠そして、ひぐらしの声＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あるのはセミの声と清流のせせらぎ。",
-		   NULL, "Sadece ağustos böceklerinin sesi ve derenin şırıltısı var.", Line_WaitForInput);
+		   NULL, "Sadece ağustos böceklerinin sesi ve derelerin şırıltısı var.", Line_WaitForInput);
 	OutputLine(NULL, "そして、ひぐらしの声。",
 		   NULL, " Ve higurashilerin sesi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
