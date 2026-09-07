@@ -1788,7 +1788,7 @@ void main()
 //　やられた！...と思ったときにはもう遅い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やられた！…と思ったときにはもう遅い！",
-		   NULL, "Kandırıldım! …Diye düşündüğüm anda artık çok geçti!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Kandırıldım! …diye düşündüğüm anda artık çok geçti!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2148,7 +2148,7 @@ void main()
 		   NULL, "\"Hiiiiii…!!!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 4, "ps3/s19/04/990400011", 256, TRUE);
 	OutputLine(NULL, "　やめて寄らないで、けだもの〜！！！」",
-		   NULL, " Yapma, yaklaşma, seni vahşiii!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Yapma, yaklaşma, seni hayvan〜!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2396,7 +2396,7 @@ void main()
 //　許せよレナ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　許せよレナ。",
-		   NULL, "Affet beni Rena.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Affet beni, Rena.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
