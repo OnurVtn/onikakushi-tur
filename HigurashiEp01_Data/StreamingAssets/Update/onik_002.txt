@@ -511,7 +511,7 @@ void main()
 //　うかつに書店でＨグラビアでも眺めてた日にゃ、次の日には村人全員にスケベ男のレッテルと貼られているに違いない…！＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　うかつに書店でＨグラビアでも眺めてた日にゃ、次の日には村人全員にスケベ男のレッテルと貼られているに違いない…！！",
-		   NULL, "Bir gün tedbirsizce kitapçıda erotik dergilere falan bakacak olursam, ertesi gün bütün köylüler bana sapık adam damgasını vurmuş olur…!!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bir gün tedbirsizce kitapçıda erotik dergilere falan bakacak olursam, ertesi gün bütün köy sakinleri bana sapık adam damgasını vurmuş olur…!!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
