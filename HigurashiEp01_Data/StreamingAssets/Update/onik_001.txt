@@ -1788,7 +1788,7 @@ void main()
 //　やられた！...と思ったときにはもう遅い＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　やられた！…と思ったときにはもう遅い！",
-		   NULL, "Kandırıldım! …diye düşündüğüm anda artık çok geçti!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Kandırıldım! …Diye düşündüğüm anda artık çok geçti!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3468,7 +3468,7 @@ void main()
 //　みんな口々にうまいうまいと言いながら、あっという間にレナの弁当箱を空にしてしまう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　みんな口々にうまいうまいと言いながら、あっという間にレナの弁当箱を空にしてしまう。",
-		   NULL, "Herkes hep bir ağzından 'Çok leziz, çok leziz!' diye diye Rena'nın bento kutusunu göz açıp kapayıncaya kadar boşalttı.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Herkes hep bir ağızdan 'Çok leziz, çok leziz.' diye diye Rena'nın bento kutusunu göz açıp kapayıncaya kadar boşalttı.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

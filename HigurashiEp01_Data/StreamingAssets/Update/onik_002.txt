@@ -193,7 +193,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300083", 256, TRUE);
 	OutputLine(NULL, "「昨夜から今朝まであのテンションらしいよ？！",
-		   NULL, "\"Dün geceden beri bu moddaymış, billiyor musun?!", Line_WaitForInput);
+		   NULL, "\"Dün geceden beri bu moddaymış, biliyor musun?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300084", 256, TRUE);
 	OutputLine(NULL, "　責任取れんの？！」",
 		   NULL, " Bunun sorumluluğunu üstlenebilecek misin?!\"", GetGlobalFlag(GLinemodeSp));
@@ -1078,7 +1078,7 @@ void main()
 //　なぁ魅音！見晴らしがいいだけじゃあとても無理だぜ？！？￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なぁ魅音！見晴らしがいいだけじゃあとても無理だぜ？！？！",
-		   NULL, "Hey, Mion! Manzaranın güzel olması bunları bitirmemize yetmez, biliyorsun değil mi?!?!\"", Line_Normal);
+		   NULL, "Hey, Mion! Manzaranın güzel olmasının bunları bitirmemize yetmeyeceğini biliyorsun, değil mi?!?!\"", Line_Normal);
 	ClearMessage();
 
 //「…こんにちはです。￥
@@ -1601,7 +1601,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200108", 256, TRUE);
 	OutputLine(NULL, "「でもね、おいしいの一言だけでもうれしいよ。",
-		   NULL, "\"Yine de sadece 'Çok lezzetliydi.’ lafı bile insanı çok mutlu ediyor.", Line_WaitForInput);
+		   NULL, "\"Yine de sadece 'Çok lezzetliydi.' lafı bile insanı çok mutlu ediyor.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200109", 256, TRUE);
 	OutputLine(NULL, "…苦労の甲斐があったかな、って。」",
 		   NULL, " 'Bunca uğraşa değdi.' dedirtiyor.\"", GetGlobalFlag(GLinemodeSp));
@@ -1725,7 +1725,7 @@ void main()
 //　りんごのうさぎさんにさく！と楊枝を刺すと、びし！と梨花ちゃんに差し出した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　りんごのうさぎさんにさく！と楊枝を刺すと、びし！と梨花ちゃんに差し出した。",
-		   NULL, "Tavşan şekli verilerek doğranmış elmalar! İki tanesine çat! diye kürdanları saplayıp şak! diye Rika-chan'a uzattı.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tavşan şekli verilerek doğranmış elmalar! İki tanesine 'Çat!' diye kürdanları saplayıp 'Şak!' diye Rika-chan'a uzattı.", GetGlobalFlag(GLinemodeSp));
 
 	FadeOutBGM( 1, 1000, TRUE );
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
@@ -2161,7 +2161,7 @@ void main()
 //　レナはこれ以上ないくらいに赤面しながら、信じられない…という表情を浮かべる￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　レナはこれ以上ないくらいに赤面しながら、信じられない…という表情を浮かべる。",
-		   NULL, "Rena, daha fazla kızaramayacak kadar kıpkırmızı kesilerek 'İnanamıyorum...' der gibi bir yüz ifadesine büründü.", Line_Normal);
+		   NULL, "Rena, daha fazla kızaramayacak kadar kıpkırmızı kesilerek 'İnanamıyorum…' der gibi bir yüz ifadesine büründü.", Line_Normal);
 	ClearMessage();
 
 //「な…なんでわかるかな…？＠　…かな？…はぅ……レ、レナの手作り……、＠
