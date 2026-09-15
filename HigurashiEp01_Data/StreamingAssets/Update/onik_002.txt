@@ -294,7 +294,7 @@ void main()
 		   NULL, " Keiichi-kun erkek olduğu için…", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200082", 256, TRUE);
 	OutputLine(NULL, "　きっといっぱい食べるだろうと思って…たくさん…ね☆",
-		   NULL, " bol bol yer diye düşünmüştüm de… O yüzden bir sürü yaptım… Öyle işte.☆", Line_WaitForInput);
+		   NULL, " bol bol yer diye düşünmüştüm de… O yüzden bir sürü yaptım… Öyle işte☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200083", 256, TRUE);
 	OutputLine(NULL, "……あはは…もう行こ！",
 		   NULL, " ……Ahaha… Hadi artık gidelim!", Line_Continue);
@@ -1376,7 +1376,7 @@ void main()
 		   NULL, "\"Bol bol yiyin!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200105", 256, TRUE);
 	OutputLine(NULL, "　ちゃんとみんなの分、あるから☆」",
-		   NULL, " Herkese yetecek kadar var.☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Herkese yetecek kadar var☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3460,7 +3460,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "org/rena0004", 256, TRUE);
 	OutputLine(NULL, "「…そう！　ケンタくん☆",
-			   NULL, "\"…Evet! Kenta-kun.☆", Line_WaitForInput);
+			   NULL, "\"…Evet! Kenta-kun☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "org/rena0005", 256, TRUE);
 	OutputLine(NULL, "　……はぅ……かぁいい……お持ち帰りしたいぃ…☆」",
 		   NULL, " ……Hau…… Çok şevimli…… Onu eve götürmek istiyoruum…☆\"", GetGlobalFlag(GLinemodeSp));
@@ -3541,7 +3541,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "org/rena0006", 256, TRUE);
 	OutputLine(NULL, "「圭一くんが手伝ってくれる☆",
-		   NULL, "\"Keiichi-kun da yardım edecek.☆", Line_WaitForInput);
+		   NULL, "\"Keiichi-kun da yardım edecek☆", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "org/rena0007", 256, TRUE);
 	OutputLine(NULL, "…ケンタくんをお持ち帰りできる……はぅ…。」",
 		   NULL, " …Kenta-kun'u eve götürebileceğim…… Hau…\"", GetGlobalFlag(GLinemodeSp));
@@ -3675,7 +3675,7 @@ void main()
 		   NULL, "\"O yüzden ondan öncesini pek bilmiyorum.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200170", 256, TRUE);
 	OutputLine(NULL, "…ごめんね☆」",
-		   NULL, " …Kusura bakma.☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " …Kusura bakma☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
