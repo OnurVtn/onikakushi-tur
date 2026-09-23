@@ -47,7 +47,7 @@ void dialog009()
 	OutputLine(NULL, "…つるはしで。",
 		   NULL, " …Kazmayla…", Line_WaitForInput);
 	OutputLine(NULL, "…斧、で。",
-		   NULL, " …Bal… tayla…", Line_Normal);
+		   NULL, " …Baltay… la…", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 

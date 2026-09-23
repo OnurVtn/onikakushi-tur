@@ -335,7 +335,7 @@ void main()
 //　......もう楽になってもいいんじゃないか......？!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…もう楽になってもいいんじゃないか…？",
-		   NULL, "…artık rahatlasam da olur, değil mi…?", Line_Normal);
+		   NULL, "…Artık rahatlasam da olur, değil mi…?", Line_Normal);
 	ClearMessage();
 
 //locate 0,6
