@@ -591,7 +591,7 @@ void main()
 		   NULL, "\"Sorun yok, sorun yok.", Line_Continue);
 	Wait( 1100 );
 	OutputLine(NULL, "路頭に迷ったら永久就職して圭ちゃんに食わせてもらうから☆」",
-		   NULL, " Sokaklara düşersem, dünyaevine girip senin sırtından geçinirim☆\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sokaklara düşersem, seninle dünyaevine girip sırtından geçinirim☆\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -602,10 +602,10 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f0953d>レナ</color>", NULL, "<color=#f0953d>Rena</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200019", 256, TRUE);
 	OutputLine(NULL, "「え、え、永久就職って何だろ？！",
-		   NULL, "\"D-D-Dünyaevine girmek de ne demek acaba?!", Line_Continue);
+		   NULL, "\"D-D-Dünyaevine girmek derken ne demek istiyorsun acaba?!", Line_Continue);
 	Wait( 2200 );
 	OutputLine(NULL, "　何だろ？！」",
-		   NULL, " Ne demek acaba?!\"", Line_Normal);
+		   NULL, " Ne demek istiyorsun acaba?!\"", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("background/gk3", "right", 0, 0, 300 );
