@@ -1463,7 +1463,7 @@ void main()
 //　だが何らかのきっかけで合同教室になってしまい、それがそのまま習慣として残っているのだという＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だが何らかのきっかけで合同教室になってしまい、それがそのまま習慣として残っているのだという。",
-		   NULL, "Ancak bir nedenden ötürü ortak sınıfa geçilmiş ve bu durum bir alışkanlık olarak devam etmiş.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ancak bir nedenden dolayı ortak sınıfa geçilmiş ve bu durum bir alışkanlık olarak devam etmiş.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -2794,7 +2794,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s19/03/990300042", 256, TRUE);
 	OutputLine(NULL, "「こっちじゃあさ、出席日数が足りてりゃみんな進学できるんだよ。」",
-		   NULL, "\"Buradaysa, devamsızlık günlerin fazla değilse herkes üst okula geçebiliyor.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Buradaysa devamsızlık günlerin fazla değilse herkes üst okula geçebiliyor.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3230,7 +3230,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#956f6e>圭一</color>", NULL, "<color=#956f6e>Keiichi</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00820", 256, TRUE);
 	OutputLine(NULL, "「お、里芋がイイ感じだぞ。",
-		   NULL, "\"Oo, bu taro pek güzel olmuş.", Line_WaitForInput);
+		   NULL, "\"Ooo, bu taro pek güzel olmuş.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 1, "ps3/s19/01/hr_kei00830", 256, TRUE);
 	OutputLine(NULL, "煮物は冷めててもうまいよなぁ！」",
 		   NULL, " Soğumuş olsa bile haşlama da gayet iyi!\"", GetGlobalFlag(GLinemodeSp));

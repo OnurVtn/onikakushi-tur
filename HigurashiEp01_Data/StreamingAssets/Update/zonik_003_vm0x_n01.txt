@@ -114,7 +114,7 @@ void dialog009()
 		   NULL, "\"Keiichi-kun, az önce hani, balta falan olsa işe yarar demiştin, değil mi?!", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s19/02/990200223", 256, TRUE);
 	OutputLine(NULL, "　そ、それでねレナ、物置からちゃんと鉈、持ってきたんだよ…！！」",
-		   NULL, " İ-İşte o yüzden Rena, depodan senin için bir satır getirdi…!!!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " İ-İşte o yüzden Rena, barakadan senin için bir satır getirdi…!!!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 }
 
