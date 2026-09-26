@@ -365,7 +365,7 @@ void main()
 //　でもまぁ。...遠くない将来、みんなを自宅に招待してもいいかもな＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　でもまぁ。…遠くない将来、みんなを自宅に招待してもいいかもな。",
-		   NULL, "Ama neyse. …Çok da uzak olmayan bir gelecekte hepinizi evime davet edebilirim belki.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Neyse, çok da uzak olmayan bir gelecekte hepinizi evime davet edebilirim belki.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

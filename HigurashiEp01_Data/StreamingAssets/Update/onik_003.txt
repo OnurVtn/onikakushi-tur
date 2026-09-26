@@ -2897,7 +2897,7 @@ void main()
 //　あそこであったらしい、バラバラ殺人事件のことを…￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　あそこであったらしい、バラバラ殺人事件のことを…。",
-		   NULL, "Orada gerçekleştiği söylenen parçalanarak işlenmiş cinayet olayını…", Line_Normal);
+		   NULL, "Orada gerçekleştiği söylenen parçalanmış ceset cinayetini olayını…", Line_Normal);
 	ClearMessage();
 
 
@@ -3073,7 +3073,7 @@ void main()
 //　俺はてっきり…バラバラ殺人とかがあったのかと思っていたのだが…違うのだろうか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　俺はてっきり…バラバラ殺人とかがあったのかと思っていたのだが…違うのだろうか。",
-		   NULL, "Ben de… parçalanarak işlenmiş bir cinayet olayı yaşandığını falan düşündüm ama… yoksa yanılıyor muyum?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ben de… bir parçalanmış ceset cinayeti olayı yaşandığını falan düşündüm ama… yoksa yanılıyor muyum?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -3490,7 +3490,7 @@ void main()
 //　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…本当に雛見沢でバラバラ殺人なんかあったんですか？、って。",
-		   NULL, "…Ona 'Gerçekten de Hinamizawa'da parçalanarak işlenen bir cinayet oldu mu?' diye sormak istiyorum.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "…Ona 'Gerçekten de Hinamizawa'da bir parçalanmış ceset cinayeti oldu mu?' diye sormak istiyorum.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -4248,7 +4248,7 @@ void main()
 //　富竹さんの言葉通りなら、それは間違いなくバラバラ殺人を示唆していた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　富竹さんの言葉通りなら、それは間違いなくバラバラ殺人を示唆していた。",
-		   NULL, "Tomitake-san'ın sözleri doğruysa, bu kesinlikle parçalanarak işlenen bir cinayete işaret ediyordu.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Tomitake-san'ın sözleri doğruysa, bu kesinlikle bir parçalanmış ceset cinayetine işaret ediyordu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -4436,7 +4436,7 @@ void main()
 //"雛見沢ダム・作業員リンチ死！　バラバラ殺人！！"!w5000@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“雛見沢ダム・作業員リンチ死！　バラバラ殺人！！”",
-		   NULL, "'HINAMIZAWA BARAJI İŞÇİSİ LİNÇ EDİLDİ! PARÇALANARAK İŞLENEN CİNAYET!!'", Line_ContinueAfterTyping);
+		   NULL, "'HINAMIZAWA BARAJI İŞÇİSİ LİNÇ EDİLDİ! PARÇALANMIŞ CESET CİNAYETİ!!'", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 3000 );
@@ -4505,7 +4505,7 @@ void main()
 //"雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“雛見沢ダムで悪夢の惨劇！　リンチ・バラバラ殺人！”",
-		   NULL, "'Hinamizawa Barajı'nda Kabus Gibi Bir Katliam! Linç Ve Parçalanarak İşlenen Bir Cinayet!'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'Hinamizawa Barajı'nda Kabus Gibi Bir Katliam! Linç Ve Parçalanmış Ceset Cinayeti!'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 

@@ -95,7 +95,7 @@ void main()
 		   NULL, " Bu arada, Keiichi-kun, sen hangi ayda doğdun acaba?", Line_WaitForInput);
 	ModPlayVoiceLS(3, 2, "ps3/s20/02/440200004", 256, TRUE);
 	OutputLine(NULL, "　レナは７月なんだよ！」",
-		   NULL, " Rena temmuzda doğdu!\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Rena Temmuz'da doğdu!\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -185,7 +185,7 @@ void main()
 	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#5ec69a>魅音</color>", NULL, "<color=#5ec69a>Mion</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300002", 256, TRUE);
 	OutputLine(NULL, "「ってことは圭ちゃん、ひょっとして４月生まれ？」",
-		   NULL, "\"O zaman Kei-chan, yoksa sen nisanda mı doğdun?\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"O zaman Kei-chan, yoksa sen Nisan'da mı doğdun?\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
