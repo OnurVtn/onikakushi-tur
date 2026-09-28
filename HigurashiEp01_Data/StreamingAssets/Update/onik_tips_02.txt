@@ -22,7 +22,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まだ６月だってのに…",
-		   NULL, "Daha hazirandayız ama şimdiden…", Line_ContinueAfterTyping);
+		   NULL, "Daha Hazirandayız ama şimdiden…", Line_ContinueAfterTyping);
 
 	SetValidityOfInput( FALSE );
 	Wait( 1000 );

@@ -20,7 +20,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昭和５４年６月ＸＸ日夕刊より",
-		   NULL, "XX Haziran 1979 Tarihli Akşam Baskısından", GetGlobalFlag(GLinemodeSp));
+		   NULL, "XX Haziran 1979 Tarihli Akşam Baskısı", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -55,7 +55,7 @@ void main()
 	OutputLine(NULL, "　ＸＸ日午前８時頃、",
 		   NULL, "XX günü saat sabah 8 sularında…", Line_WaitForInput);
 	OutputLine(NULL, "鹿骨市内の病院から警察へ、「ＸＸＸＸさんを殺害したことをほのめかす男性がいる」との通報があり、",
-		   NULL, " Shishibone şehrindeki bir hastaneden polise, 'XXXX-san'ı öldürdüğünü ima eden bir adam var' şeklinde bir ihbar geldi. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Shishibone şehrindeki bir hastaneden polise, 'XXXX-san'ı öldürdüğünü ima eden bir adam var.' şeklinde bir ihbar geldi. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "警察官が駆けつけ事情を聞いたところ、事件を自供。",
 		   NULL, "Polis memurları olay yerine gelip kendisini sorguladıklarında, şüpheli olayı itiraf etti.", GetGlobalFlag(GLinemodeSp));

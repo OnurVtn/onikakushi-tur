@@ -168,7 +168,7 @@ void main()
 //　...彼女のそれはまだ聞こえる気がする。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…彼女のそれはまだ聞こえる気がする。",
-		   NULL, "…Onun sesini hala duyabiliyormuşum gibi geliyor.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Onun sesini hala duyabiliyormuşum gibi geliyor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 

@@ -201,7 +201,7 @@ void main()
 //　...梨花ちゃんが哀れみながら俺の頭をなでなでしてくれる＠金持ち扱いから瞬時に貧乏人扱いかよ...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…梨花ちゃんが哀れみながら俺の頭をなでなでしてくれる。",
-		   NULL, "…Rika-chan acıyarak başımı okşadı.", Line_WaitForInput);
+		   NULL, "…Rika-chan bana acıyarak başımı okşadı.", Line_WaitForInput);
 	OutputLine(NULL, "金持ち扱いから瞬時に貧乏人扱いかよ…。",
 		   NULL, " Zengin muamelesinden bir anda fakir muamelesine mi düştüm yani…?", Line_Normal);
 	ClearMessage();

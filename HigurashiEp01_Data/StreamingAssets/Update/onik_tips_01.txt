@@ -366,7 +366,7 @@ void main()
 		   NULL, " Elimizden bir şey gelmiyor.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300006", 256, TRUE);
 	OutputLine(NULL, "　営林署の建物を間借りしてんだからさー。」",
-		   NULL, " Sonuçta orman idaresinin binasını kiralıyoruz.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Sonuçta Orman İdaresi'nin binasını kiralıyoruz.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -484,7 +484,7 @@ void main()
 		   NULL, "\"İşte, durum böyle.", Line_WaitForInput);
 	ModPlayVoiceLS(3, 3, "ps3/s20/03/440300012", 256, TRUE);
 	OutputLine(NULL, "　興宮の学校に通いたくない連中は、こうして営林署の建物を間借りした仮校舎に通ってるってわけさ。」",
-		   NULL, " Okinomiya'daki okula gitmek istemeyenler de orman idaresinden kiralanan bu sözde okul binasında eğitim görüyorlar.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Okinomiya'daki okula gitmek istemeyenler de Orman İdaresi'nden kiralanan bu sözde okul binasında eğitim görüyorlar.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
