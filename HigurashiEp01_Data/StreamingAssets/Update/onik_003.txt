@@ -4513,7 +4513,7 @@ void main()
 //"被害者は現場監督。日頃から粗暴な振る舞いで加害者たちを…"@
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "“被害者は現場監督。日頃から粗暴な振る舞いで加害者たちを…“",
-		   NULL, "'Kurban şantiye direktörüydü. Uzun zamandır faillere karşı kaba davranışlarıyla…'", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'Kurban şantiye direktörüydü. Uzun zamandır kaba davranışlarıyla faillere…'", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
