@@ -24,7 +24,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　雛見沢ダムで悪夢の惨劇！",
-		   NULL, "Nightmare befalls the Hinamizawa dam!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hinamizawa Barajı'nda Kabus Gibi Bir Katliam!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -36,7 +36,7 @@ void main()
 //　リンチ・バラバラ殺人￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　リンチ・バラバラ殺人！",
-		   NULL, "Lynching and murder/dismemberment!", Line_Normal);
+		   NULL, "Linç Ve Parçalanmış Ceset Cinayeti!", Line_Normal);
 	ClearMessage();
 	SetStyleOfMessageSwinging( 0 );
 	PlayBGM( 1, "msys07", 56, 0 );
@@ -44,7 +44,7 @@ void main()
 //　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　Ｘ月Ｘ日、ＸＸ県鹿骨市の雛見沢ダム建設作業現場で起こった血も凍るバラバラ殺人。",
-		   NULL, "On X day of X month in XX prefecture at the Hinamizawa dam construction work site in Shishibone City, a bone-chillingly gruesome murder/dismemberment.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "X ayının X'inde, XX eyaletinin Shishibone şehrindeki Hinamizawa Barajı inşaat sahasında kan donduran bir parçalanmış ceset cinayeti meydana geldi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -52,17 +52,17 @@ void main()
 //　列島を震撼させたショッキングな事件でありながら、警察はその細部を語ろうとしていない...＠一体、雛見沢ダムで何が...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　列島を震撼させたショッキングな事件でありながら、警察はその細部を語ろうとしていない…。",
-		   NULL, "Even though this case has shocked the archipelago, the police will give no details on the case...", Line_WaitForInput);
+		   NULL, "Tüm ülkeyi dehşete düşüren bu şoke edici olaya rağmen, polis olayın ayrıntılarını anlatmaya yanaşmıyor…", Line_WaitForInput);
 	OutputLine(NULL, "一体、雛見沢ダムで何が…？",
-		   NULL, " Exactly what happened at the Hinamizawa dam...?", Line_Normal);
+		   NULL, " Hinamizawa Barajı'nda tam olarak ne oldu…?", Line_Normal);
 	ClearMessage();
 
 //「始めは殺すつもりはなかったのでしょう＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「始めは殺すつもりはなかったのでしょう。",
-		   NULL, "\"They probably didn't mean to kill him at first,", Line_WaitForInput);
+		   NULL, "\"Başta öldürmek gibi bir niyetleri yoktu sanırım.", Line_WaitForInput);
 	OutputLine(NULL, "　ですが被害者がシャベルを振り回して抵抗を始めると、加害者たちも一斉に得物を手にし、一気に殺し合いにエスカレートしたのです。」",
-		   NULL, " but as the victim resisted by swinging around a shovel, the rest of the perpetrators armed themselves in return, and it quickly escalated to homicide.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Ancak kurban küreği savurarak direnmeye başlayınca, failler de hep birlikte ellerine silahlarını aldılar ve olay bir anda bir katliama dönüştü.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -70,19 +70,19 @@ void main()
 //　ですが被害者がシャベルを振り回して抵抗を始めると、加害者たちも一斉に得物を手にし、一気に殺し合いにエスカレートしたのです。＠と前述の捜査関係者Ａ氏は語る￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "と前述の捜査関係者Ａ氏は語る。",
-		   NULL, "So said the aforementioned Investigator A.", Line_Normal);
+		   NULL, "Daha önce yukarıda bahsi geçen Dedektif A olayı böyle anlatıyor.", Line_Normal);
 	ClearMessage();
 
 //　血の惨劇が終われば、そこには誰の眼にも生きているとは思えない無残な屍...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　血の惨劇が終われば、そこには誰の眼にも生きているとは思えない無残な屍…。",
-		   NULL, "After this bloody tragedy was over, they were left with a body which nobody could have mistaken as alive...", Line_Normal);
+		   NULL, "Kanlı katliam sona erdiğinde, orada hiç kimsenin yaşıyor olduğunu düşünemeyeceği bir ceset vardı…", Line_Normal);
 	ClearMessage();
 
 //　日頃から粗暴な振る舞いで容疑者たちをいじめていたＸＸさん＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　日頃から粗暴な振る舞いで容疑者たちをいじめていたＸＸさん。",
-		   NULL, "XX-san had tormented the suspects daily with his rough behavior.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Uzun zamandır kaba davranışlarıyla faillere eziyet ediyordu XX-san…", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -90,35 +90,35 @@ void main()
 //　始めはちょっとした仕返しのつもりだった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　始めはちょっとした仕返しのつもりだった…。",
-		   NULL, "At first it was meant to be payback...", Line_Normal);
+		   NULL, "Başta niyetleri ufak bir intikam almaktan ibaretti…", Line_Normal);
 	ClearMessage();
 
 //「加害者たちは皆、自らの罪深さに恐れおののきました＠警察へ出頭しようと言い出す者もいたのです。」
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「加害者たちは皆、自らの罪深さに恐れおののきました。",
-		   NULL, "\"All the perpetrators were horrified by their deed", Line_WaitForInput);
+		   NULL, "\"Faillerin hepsi kendi işledikleri günahın ağırlığından dehşete düştüler.", Line_WaitForInput);
 	OutputLine(NULL, "警察へ出頭しようと言い出す者もいたのです。」",
-		   NULL, " and one even turned himself in to the police.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Hatta polise teslim olmayı önerenler bile oldu.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だがリーダー格のＸＸだけは、死体を隠そうと提案した＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがリーダー格のＸＸだけは、死体を隠そうと提案した。",
-		   NULL, "It was the de facto leader of this group, XX, who suggested hiding the body.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Fakat lider konumundaki XX, cesedi saklamayı önerdi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　始めは渋った彼らも、次第に捕まりたくないと思い始めるようになる＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　始めは渋った彼らも、次第に捕まりたくないと思い始めるようになる。",
-		   NULL, "Reluctantly at first, they soon began to think they did not wish to be caught.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Başta gönülsüz olan diğerleri de zamanla yakalanmak istemediklerini düşünmeye başladılar.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　人数は６人いて死体を隠す方法がいくらでもある建設現場...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　人数は６人いて死体を隠す方法がいくらでもある建設現場…。",
-		   NULL, "The construction site had numerous places to hide the body with six people...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Altı kişiydiler ve cesedi saklamanın sayısız yolunun bulunduğu bir inşaat sahasındaydılar…", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -126,39 +126,39 @@ void main()
 //　彼らは揚々と死体を隠し、その場を離れるはずだった...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　彼らは揚々と死体を隠し、その場を離れるはずだった…。",
-		   NULL, "They were originally supposed to hide the body and leave the area...", Line_Normal);
+		   NULL, "Cesedi rahatça saklayıp oradan ayrılacaklardı…", Line_Normal);
 	ClearMessage();
 
 //「しかしリーダー格のＸＸは、他の５人が良心の呵責に耐えられなくなり＠自首して事件が発覚することを恐れ、恐るべき方法でその口封じを図ったのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「しかしリーダー格のＸＸは、他の５人が良心の呵責に耐えられなくなり、",
-		   NULL, "But the de facto leader feared that the consciences of the other five wouldn't be able to bear the burden", Line_WaitForInput);
+		   NULL, "\"Ancak lider konumundaki XX, diğer beş kişinin vicdan azabına daha fazla dayanamayıp…", Line_WaitForInput);
 	OutputLine(NULL, "自首して事件が発覚することを恐れ、恐るべき方法でその口封じを図ったのです。」",
-		   NULL, " and came up with a horrifying method to keep them from turning him in to the police...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " polise teslim olarak olayın ortaya çıkmasından korktu ve korkunç bir yöntemle onları susturmaya çalıştı.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　なんとＸＸは死体を人数分に切断し、それぞれの責任で隠すという悪魔の方法を思いついたのである￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　なんとＸＸは死体を人数分に切断し、それぞれの責任で隠すという悪魔の方法を思いついたのである。",
-		   NULL, "He devised the heinous method of splitting up the body among them and making each of them responsible for hiding a piece.", Line_Normal);
+		   NULL, "XX, cesedi kişi sayısı kadar parçaya bölüp herkesin kendi sorumluluğunda saklaması gibi şeytani bir yöntem düşündü.", Line_Normal);
 	ClearMessage();
 
 //「ＸＸは、単なる暴行致死でなくもっと恐ろしいバラバラ殺人に仕立て上げ、ひとりひとりを深く関与させることで結束を固めようとしたのです。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＸＸは、単なる暴行致死でなくもっと恐ろしいバラバラ殺人に仕立て上げ、ひとりひとりを深く関与させることで結束を固めようとしたのです。」",
-		   NULL, "\"XX had turned a simple manslaughter into a gruesome dismemberment and forcibly involved each perpetrator in order to create a sense of unity between them.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"XX, olayı basit bir saldırı sonucu ölüm olmaktan çıkarıp çok daha korkunç olan bir parçalanmış ceset cinayetine dönüştürerek herkesi tek tek derinden işin içine çekip aralarındaki bağı güçlendirmeye çalıştı.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　ひとりひとりを深く関与＠...これが意味するのは何なのか＠Ａ氏は重い口を開く￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　ひとりひとりを深く関与。",
-		   NULL, "Each one participated.", Line_WaitForInput);
+		   NULL, "Herkesi tek tek derinden işin içine çekmek.", Line_WaitForInput);
 	OutputLine(NULL, "…これが意味するのは何なのか。",
-		   NULL, " But what does this mean?", Line_WaitForInput);
+		   NULL, " …Bunun anlamı neydi?", Line_WaitForInput);
 	OutputLine(NULL, "Ａ氏は重い口を開く。",
-		   NULL, " Person A spoke out reluctantly:", Line_Normal);
+		   NULL, " Dedektif A isteksizce de olsa devam etti:", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_027", 56, 64 );
@@ -166,16 +166,16 @@ void main()
 //「ＸＸは、ひとりひとりに自らの手で遺体を切断するよう命じたのです＠彼らは始めは渋りましたが、結局誰も逆らえませんでした。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＸＸは、ひとりひとりに自らの手で遺体を切断するよう命じたのです。",
-		   NULL, "\"XX had ordered each and every one of them to dissect a piece for themselves.", Line_WaitForInput);
+		   NULL, "\"XX, her birine cesedi kendi elleriyle parçalamalarını emretti.", Line_WaitForInput);
 	OutputLine(NULL, "彼らは始めは渋りましたが、結局誰も逆らえませんでした。」",
-		   NULL, " They were hesitant at first, but nobody refused.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Başta gönülsüzdüler ama en sonunda hiçbiri karşı gelemedi.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　毒食らわば皿まで...ということなのか＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　毒食らわば皿まで…ということなのか。",
-		   NULL, "In for a penny, in for a pound... was what it meant.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "'Zehri yediysen tabağı da yalayacaksın.' demekti bu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -183,22 +183,22 @@ void main()
 //　かくして、想像するのも躊躇われる恐るべき血の儀式が始まったのである￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　かくして、想像するのも躊躇われる恐るべき血の儀式が始まったのである。",
-		   NULL, "Thus, an unimaginable bloody ceremony began.", Line_Normal);
+		   NULL, "Böylece, hayal etmesi bile insanın içini ürperten korkunç kan ayini başladı.", Line_Normal);
 	ClearMessage();
 
 //「被害者たちは泣きながら嘔吐しながら、死体を切断しました＠頑強に抵抗する者もいましたが、ＸＸに『今さらもうひとり死んでも同じことだぞ。』と凄まれ、結局は抗えなかったのです。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「被害者たちは泣きながら嘔吐しながら、死体を切断しました。",
-		   NULL, "\"The perpetrators wept and vomited as they performed the gruesome task. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Failler, bir yandan ağlayıp bir yandan kusarken cesedi parçalara ayırdılar. ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頑強に抵抗する者もいましたが、ＸＸに「今さらもうひとり死んでも同じことだぞ。」と凄まれ、結局は抗えなかったのです。」",
-		   NULL, "There was one person who stubbornly refused, but XX threatened them, saying, \"Nothing would change if someone else ended up dead,\" and he gave up in his objections.", Line_Normal);
+		   NULL, "Aralarında şiddetle direnen biri vardı ama XX ona 'Şimdi bir kişi daha ölse yine aynı şey olacak.' diye gözdağı verince o da daha fazla karşı koyamadı.\"", Line_Normal);
 	ClearMessage();
 
 //　だがＸＸの目論見はわずか一晩で崩れた＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　だがＸＸの目論見はわずか一晩で崩れた。",
-		   NULL, "But XX's plan collapsed in the span of one night.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ancak XX'in planı yalnızca bir gecede suya düştü.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -206,13 +206,13 @@ void main()
 //　死体の切断に最後まで抵抗したＸＸＸが、乱闘時の傷の治療に訪れた病院で、泣き崩れながら告白したのである...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　死体の切断に最後まで抵抗したＸＸＸが、乱闘時の傷の治療に訪れた病院で、泣き崩れながら告白したのである…。",
-		   NULL, "XXX, who had refused to dissect the corpse up until the last moment, had broken down into tears at the hospital where he was being treated for an injury sustained during the scuffle and confessed...", Line_Normal);
+		   NULL, "Cesedin parçalanmasına sonuna kadar direnen XXX, arbede sırasında aldığı yaraların tedavisi için gittiği hastanede, ağlayarak her şeyi itiraf etti…", Line_Normal);
 	ClearMessage();
 
 //　犯人たちは芋づる式に逮捕されたが、リーダー格のＸＸの行方だけは掴めていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　犯人たちは芋づる式に逮捕されたが、リーダー格のＸＸの行方だけは掴めていない。",
-		   NULL, "The criminals were arrested one after the other, but the de facto leader XX's whereabouts are still unknown.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Suçlular peş peşe yakalandı ama lider konumundaki XX'in nerede olduğu hala bilinmiyor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -220,7 +220,7 @@ void main()
 //　また、ＸＸが隠した右腕部分も発見されていない＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　また、ＸＸが隠した右腕部分も発見されていない。",
-		   NULL, "Also, the right arm hidden by XX has yet to be found.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ayrıca XX'in sakladığı sağ kol da bulunamadı.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -228,7 +228,7 @@ void main()
 //　警察の連日の捜査にも関わらず、悪魔のような男が未だ法の手を逃れているのである＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警察の連日の捜査にも関わらず、悪魔のような男が未だ法の手を逃れているのである。",
-		   NULL, "Despite an ongoing search, this horrible individual has so far managed to elude law enforcement.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Polisin günlerdir süren soruşturmasına rağmen, bu şeytan kılıklı adam hala adaletin elinden kaçmayı sürdürüyor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -236,22 +236,22 @@ void main()
 //　警察は何をしているのか...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　警察は何をしているのか…。",
-		   NULL, "What could the police be doing...?", Line_Normal);
+		   NULL, "Polis ne yapıyor…?", Line_Normal);
 	ClearMessage();
 
 //「ＸＸが死体（右腕）を沼に捨てに行くと言っていたらしいのです＠実際、沼の近くにＸＸの乗用車が乗り捨ててあったのですが、その後の足取りはまったくわかりません。＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「ＸＸが死体（右腕）を沼に捨てに行くと言っていたらしいのです。",
-		   NULL, "\"It appears that XX had said he was going to throw the body (right arm) into the swamp.", Line_WaitForInput);
+		   NULL, "\"Söylenene göre XX, cesedi (sağ kolu) bataklığa atmaya gideceğini söylemiş.", Line_WaitForInput);
 	OutputLine(NULL, "実際、沼の近くにＸＸの乗用車が乗り捨ててあったのですが、その後の足取りはまったくわかりません。」",
-		   NULL, " XX's car was discovered abandoned near the swamp, but there were no clues to his whereabouts.\"", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Gerçekten de XX'in aracı bataklığın yakınında terk edilmiş halde bulundu ama sonrasında nereye gittiğine dair hiçbir iz yok.\"", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　仲間の裏切りを最後まで疑っていたＸＸ＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仲間の裏切りを最後まで疑っていたＸＸ。",
-		   NULL, "XX didn't trust his companions.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "XX, son ana kadar arkadaşlarının kendisine ihanet edeceğinden şüpheleniyordu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -259,26 +259,26 @@ void main()
 //　仲間が警察に自供することを見越して、沼以外の場所に逃れた可能性は拭いきれない￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　仲間が警察に自供することを見越して、沼以外の場所に逃れた可能性は拭いきれない。",
-		   NULL, "One cannot deny the possibility that he had expected his companions to confess to the police and used his car as a decoy.", Line_Normal);
+		   NULL, "Arkadaşlarının polise itirafta bulunacağını öngörüp bataklık dışında bir yere kaçmış olma ihtimali göz ardı edilemiyor.", Line_Normal);
 	ClearMessage();
 
 //「もちろんそれも疑っています＠...車はないはずなので、逃げられる範囲にも限度があると思うのですが...＠署内では、死体を捨てる時に誤って自分も沼に溺れてしまったのではないかと囁かれています...。￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "「もちろんそれも疑っています。",
-		   NULL, "\"Of course, I doubt that theory.", Line_WaitForInput);
+		   NULL, "\"Elbette bundan da şüpheleniyoruz.", Line_WaitForInput);
 	OutputLine(NULL, "…車はないはずなので、逃げられる範囲にも限度があると思うのですが…。",
-		   NULL, " Since he has no car, one would expect him to have a limited area to which he could have escaped to. ", GetGlobalFlag(GLinemodeSp));
+		   NULL, " …Arabası olmadığına göre kaçabileceği mesafenin de bir sınırı olduğunu düşünüyorum ama… ", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "署内では、死体を捨てる時に誤って自分も沼に溺れてしまったのではないかと囁かれています…。」",
-		   NULL, "But within the station there were rumors going around that he had accidentally slipped and drowned in the swamp when he went to throw away the body.\"", Line_Normal);
+		   NULL, "Karakolda, cesedi atarken yanlışlıkla kendisinin de bataklıkta boğulmuş olabileceği fısıldanıyor…\"", Line_Normal);
 	ClearMessage();
 
 //　この沼、地元では底なし沼と恐れられ＠その名を鬼ヶ淵と言い、沼の底の底は地獄の鬼の国につながっているのだという＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　この沼、地元では底なし沼と恐れられ、",
-		   NULL, "To the locals, that swamp is believed to be bottomless.", Line_WaitForInput);
+		   NULL, "Yerel halk, bu bataklığın dipsiz bir bataklık olduğunu söyleyerek ondan korkuyor.", Line_WaitForInput);
 	OutputLine(NULL, "その名を鬼ヶ淵と言い、沼の底の底は地獄の鬼の国につながっているのだという。",
-		   NULL, " It's known as Onigafuchi, the Demon's Abyss, and it's said that the bottom of the swamp is connected to the hellish world of demons.", GetGlobalFlag(GLinemodeSp));
+		   NULL, " Adına Onigafuchi deniyor ve bataklığın en derin yerinin cehennemdeki iblislerin ülkesine bağlandığı söyleniyor.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -286,9 +286,9 @@ void main()
 //　まさに地獄の鬼とも言える残虐非道のＸＸ＠まさか沼から元の地獄へ帰ったのでは...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　まさに地獄の鬼とも言える残虐非道のＸＸ。",
-		   NULL, "The atrocious demon from hell that was XX.", Line_WaitForInput);
+		   NULL, "Cehennemin iblisi denebilecek kadar acımasız ve vicdansız XX.", Line_WaitForInput);
 	OutputLine(NULL, "まさか沼から元の地獄へ帰ったのでは…？",
-		   NULL, " Could it be that he had returned to hell through the swamp...?", Line_Normal);
+		   NULL, " Yoksa bataklıktan geçerek asıl geldiği yer olan cehenneme geri mi döndü…?", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_029", 56, 64 );
@@ -297,7 +297,7 @@ void main()
 //　超運と勝利を招く紫金龍＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　超運と勝利を招く紫金龍！",
-		   NULL, "The Zijin Dragon, bringer of luck and fortune!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Aşırı Şans Ve Başarı Getiren Mor Altın Ejderha!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -305,17 +305,17 @@ void main()
 //　金運将＠・女運飛＠・事業発＠・立身出＠・権力掌＠・厄除護＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　金運将来",
-		   NULL, "-Prosperous future!-", Line_WaitForInput);
+		   NULL, "-Gelecekte finansal şansının açılması", Line_WaitForInput);
 	OutputLine(NULL, "・女運飛躍",
-		   NULL, " -Ladies leaping into your arms!-", Line_WaitForInput);
+		   NULL, " -Bayanlarla ilişkinde büyük sıçrama", Line_WaitForInput);
 	OutputLine(NULL, "・事業発展",
-		   NULL, " -Business success!-", Line_WaitForInput);
+		   NULL, " -İş hayatında başarı", Line_WaitForInput);
 	OutputLine(NULL, "・立身出世",
-		   NULL, " -Promotions!-", Line_WaitForInput);
+		   NULL, " -Mevki ve makam", Line_WaitForInput);
 	OutputLine(NULL, "・権力掌握",
-		   NULL, " -Ambition!-", Line_WaitForInput);
+		   NULL, " -Otorite", Line_WaitForInput);
 	OutputLine(NULL, "・厄除護身",
-		   NULL, " -Protection from harm!-", GetGlobalFlag(GLinemodeSp));
+		   NULL, " -Bahtsızlıktan korunma", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -323,7 +323,7 @@ void main()
 //　パチンコや競馬などの賭け事はもとより、ビジネスから恋愛まで...＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　パチンコや競馬などの賭け事はもとより、ビジネスから恋愛まで…。",
-		   NULL, "Not just with pachinko and horse races, but business and even love...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Pachinko ve at yarışları gibi kumarlardan tutun da iş hayatından aşka kadar…", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -331,14 +331,14 @@ void main()
 //　効果がなければ全額お返しします＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　効果がなければ全額お返しします！",
-		   NULL, "Guaranteed or your money back!", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Etkisini göstermezse paranızın tamamını iade ediyoruz!", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　紫金龍ブレスレットＤＸ（一括＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　紫金龍ブレスレットＤＸ（一括）",
-		   NULL, "Zijin Dragon Bracelet DX (One piece)", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Mor Altın Ejderha Bilekliği DX (Peşin Fiyat)", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -346,7 +346,7 @@ void main()
 //　２７，８００￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　２７，８００円",
-		   NULL, "27,800 Yen", Line_Normal);
+		   NULL, "27.800 yen", Line_Normal);
 	ClearMessage();
 
 	SetValidityOfInput( FALSE );
